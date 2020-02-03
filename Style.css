@@ -1,0 +1,130 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.top {
+  position: relative;
+
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
+.centered #header_text1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+.centered #header_text2 {
+
+  font-size: 25px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#content {
+  margin:0 auto;
+  padding:10px 0;
+  width:1150px;
+  background:#fff;
+}
+
+#content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #BCCE98;
+}
+
+button {
+  color: black;
+  text-decoration: none;
+}
+
+button:hover {
+  color: #BCCE98;
+}
+
+#content #main_content { margin:0; padding:0; float:left; width:760px;}
+
+/*side bar*/
+#content #sidebar {
+  padding:0;
+  float:right;
+  width:200px;
+  margin:0 0 12px;
+  padding:8px 8px 8px 13px;
+  line-height:1.4em;
+}
+
+.comment_box {
+  border-radius: 15px;
+  background: #73AD21;
+  padding: 20px;
+  width: 250px;
+
+}
+
+
+/* Footer */
+#footer {
+  background:#fff;
+  margin:auto;
+  text-align:center;
+  padding:12px;
+  width:922px;
+  float:bottom;
+}
+
+#footer a {color:green;text-decoration:none;}
+#footer a:hover {color: #BCCE98;}
+
+/* Clear both sides to assist with div alignment  */
+.clr { clear:both; padding:0; margin:0; width:100%; font-size:0px; line-height:0px;}
