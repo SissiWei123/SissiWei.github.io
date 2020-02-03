@@ -1,2 +1,2 @@
 # SissiWei.github.io
-CPSC513
+CPSC513 Project Website
