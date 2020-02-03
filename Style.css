@@ -92,6 +92,20 @@ button:hover {
   color: #BCCE98;
 }
 
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+}
+td, th {
+    text-align: center;
+    padding: 8px;
+    font-size: 20px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+
 #content #main_content { margin:0; padding:0; float:left; width:760px;}
 
 /*side bar*/
